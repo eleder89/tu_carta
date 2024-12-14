@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Crafty+Girls&family=Italianno&display=swap');
+
+
+body {
+    background-color: #000080;
+    color: #d3d3d3;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+h1,h2,h3 {
+    /*background-color: #87ceeb;*/
+    color: #C41E3A;
+    display: inline-block;
+    padding: auto;
+    font-family: Berkshire Swash;
+}
+h1 {
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 80px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+p {
+    text-align: justify;
+    font-size: 30px;
+    font-family: Italianno;
+}
+
+.despedida {
+    text-align: center;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.boton {
+    padding: 20px 40px;
+    background-color: aqua;
+    border-color: #C41E3A;
+    border-radius: 20px;
+}
+
+.listas {
+    font-family: Crafty Girls;;
+}
